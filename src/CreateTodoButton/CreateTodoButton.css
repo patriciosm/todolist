@@ -1,0 +1,30 @@
+.CreateTodoButton {
+    background-color: #0f52ae;
+    color: #FFFFFF;
+    border:none;
+    display: inline-block;
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    font-size: 50px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.5s;
+    z-index: 1;
+}
+.CreateTodoButton:hover {
+    background-color: #04367b;
+    transform: rotate(90deg);
+}
+.CreateTodoButton--close {
+    background-color: #d60f0f;
+    transform: rotate(45deg);
+    border: 2px solid #930101;
+}
+.CreateTodoButton--close:hover {
+    background-color: #930101;
+    transform: rotate(45deg);
+}
