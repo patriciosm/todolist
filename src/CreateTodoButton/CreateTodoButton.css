@@ -1,5 +1,5 @@
 .CreateTodoButton {
-    background-color: #0f52ae;
+    background-color: #73a2e3;
     color: #FFFFFF;
     border:none;
     display: inline-block;
@@ -16,13 +16,15 @@
     z-index: 1;
 }
 .CreateTodoButton:hover {
-    background-color: #04367b;
+    background-color: #2b5ca1;
     transform: rotate(90deg);
 }
 .CreateTodoButton--close {
-    background-color: #d60f0f;
+    background-color: #bb1515;
     transform: rotate(45deg);
-    border: 2px solid #930101;
+    border: 2px solid #fefeab;
+    box-shadow: 0 0 20px rgba(255, 255, 132, 0.8), 0 0 5px inset rgba(255,255,132,0.8);
+    color:#fefeab;
 }
 .CreateTodoButton--close:hover {
     background-color: #930101;

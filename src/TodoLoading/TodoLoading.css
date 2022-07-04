@@ -1,0 +1,32 @@
+.LoadingTodo-container {
+    display: flex;
+    align-items: center;
+    border: 2px solid #AAAAAA;
+    border-radius: 3px;
+    height: 50px;
+    padding: 0 10px;
+    overflow: hidden;
+    color: #999999;
+    background: linear-gradient(90deg, rgba(250,250,250,1), rgb(190,190,190));
+    background-size: 400% 400%;
+    animation:  loadingAnimation 3s ease-in-out infinite;
+}
+.LoadingTodo-text {
+    flex-grow: 2;
+    margin: 0 10px;
+    font-weight: 600;
+}
+.LoadingTodo-container i {
+    color: #AAAAAA;
+}
+@keyframes loadingAnimation {
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 50% 100%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}

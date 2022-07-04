@@ -6,8 +6,9 @@
 }
 label {
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
     font-weight: 600;
+    color:#777777;
 }
 textarea {
     margin-bottom: 30px;
@@ -15,7 +16,18 @@ textarea {
     width: 500px;
     resize: none;
     padding: 5px 10px;
-    box-sizing: border-box;
+    border: 2px solid #AAAAAA;
+    color: #5d8ac8;
+}
+textarea::placeholder {
+    color: #AAAAAA;
+}
+textarea:focus {
+    outline-color: #5d8ac8;
+    background-color: #d4e4f9;
+}
+textarea:focus::placeholder {
+    color: #95b8e8;
 }
 .buttonContainer {
     display: flex;
@@ -31,14 +43,14 @@ textarea {
     cursor: pointer;
 }
 .form-button-cancel {
-    background-color: #d60f0f;
+    background-color: #ff375f;
 }
 .form-button-cancel:hover {
-    background-color: #AA0000;
+    background-color: #d42e2e;
 }
 .form-button-add {
-    background-color: #0f52ae;
+    background-color: #73a2e3;
 }
 .form-button-add:hover {
-    background-color: #04367b;
+    background-color: #2b5ca1   ;
 }

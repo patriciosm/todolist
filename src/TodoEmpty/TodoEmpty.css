@@ -1,0 +1,6 @@
+.TodoEmpty p {
+    font-style: italic;
+    font-weight: 600;
+    color: #777777;
+    text-align: center;
+}
