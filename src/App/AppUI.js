@@ -18,8 +18,7 @@ function AppUI() {
     searchedTodos,
     toggleCompleteTodo,
     deleteTodos,
-    openModal,
-    setOpenModal
+    openModal
   } = React.useContext(TodoContext);
   return (
     <React.Fragment>
